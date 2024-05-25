@@ -19,7 +19,7 @@ def insertion_sort_linked_list(head):
     if not head or not head.next:
         return head
     
-    sorted_head = ListNode(0)  # Додатковий фіктивний вузол
+    sorted_head = ListNode(0)
     current = head
     
     while current:
